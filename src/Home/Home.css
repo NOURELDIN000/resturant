@@ -1,0 +1,412 @@
+/* start first section */
+.First-sec {
+  /* background: url('./../../public/images/background.jpg'); */
+  background: url("./../../public/images/back2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  text-align: left;
+
+  overflow: hidden;
+  /* margin-top: 100px; */
+}
+
+.First-sec .row {
+  margin: 50px 0;
+}
+
+.First-sec h2 {
+  color: #ab3550;
+  font-size: 60px;
+  width: 80%;
+  font-weight: bold;
+}
+
+.First-sec p {
+  line-height: 25px;
+  color: #333;
+  margin: 15px 0;
+}
+
+.First-sec button {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: #ab3550;
+  margin: 20px 10px 80px 0;
+  border: 1px solid #ab3550;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.First-sec button:last-of-type {
+  color: #000;
+  background-color: #fff;
+}
+
+.First-sec button:hover {
+  transition: 0.2s ease-in-out;
+}
+
+.First-sec button:first-of-type:hover {
+  color: #ab3550;
+  background-color: #fff;
+}
+
+.First-sec button:last-of-type:hover {
+  color: #fff;
+  background-color: #ab3550;
+}
+
+/* End first sction */
+
+/* Start numbers section */
+
+.numbers {
+  background-color: #ab3550;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  height: auto;
+}
+.numbers .row {
+  margin-top: 0;
+  padding: 40px 0;
+}
+
+.numbers .row h6 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.numbers .row h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* end numbers section */
+
+/* start pride section */
+
+.pride {
+  background-color: transparent;
+  padding-top: 12px;
+  margin: 50px 0;
+}
+
+.pride .row {
+  margin-top: 10px;
+}
+
+.pride h2,
+.many-foods h2 {
+  width: 80%;
+  font-weight: bold;
+  color: #77132b;
+  margin: 10px 0;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.pride p,
+.many-foods p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  margin-top: 15px;
+}
+
+.pride img,
+.many-foods img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.pride button,
+.many-foods button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #ab3550;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 1px solid #ab3550;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+
+.pride button:hover,
+.many-foods button:hover {
+  color: #ab3550;
+  background-color: #fff;
+}
+
+/* end pride section */
+
+/* start many foods */
+
+.many-foods {
+  padding-top: 200px;
+}
+
+.many-foods ul {
+  /* list-style: square; */
+  padding: 0;
+  
+}
+
+.many-foods ul svg{
+  color: #ab3550;
+}
+
+.many-foods ul li {
+  margin-top: 10px;
+}
+
+.many-foods button {
+  margin-bottom: 20px;
+}
+
+/* end many foods */
+
+/* Start stomach */
+
+.stomach {
+  background: url("./../../public/images/c.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+  margin: 50px 0;
+  width: 100%;
+  height: auto;
+}
+
+.stomach h2 {
+  font-size: 35px;
+  line-height: 50px;
+  color: #77132b;
+  font-weight: bold;
+}
+
+.stomach p {
+  margin: 40px 0;
+  color: #444;
+  line-height: 32px;
+}
+
+.stomach a {
+  text-decoration: none;
+  color: #77132b;
+  font-size: 20px;
+}
+
+/* End stomach */
+
+/* start Explore section */
+
+.Explore {
+  margin-top: 100px;
+}
+
+.Explore h2 {
+  font-weight: bold;
+  color: #77132b;
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+.Explore p {
+  line-height: 28px;
+  color: #333;
+}
+
+.Explore .row {
+  margin-top: 50px;
+}
+
+.Explore .row .box {
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.Explore .row img {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.Explore h5 {
+  letter-spacing: 1px;
+  color: #77132b;
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+.Explore .box span {
+  display: block;
+  color: #444;
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.Explore .box h6 {
+  color: #740c24;
+  font-size: 25px;
+}
+
+.Explore .row button {
+  width: 140px;
+  height: 40px;
+
+  background-color: #ab3550;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 1px solid #ab3550;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.Explore .row a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.Explore .row button:hover {
+  background-color: transparent;
+}
+
+.Explore .row a:hover {
+  color: #740c24;
+}
+
+/* End Explore section */
+
+/* start slider */
+
+.slider {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #ab3550;
+  padding: 150px 0;
+  margin-bottom: 100px;
+}
+
+.slider h1 {
+  color: #fff;
+  margin-bottom: 120px;
+  font-weight: bold;
+}
+
+.slider .carousel {
+  background-color: #fff;
+  padding: 25px 0;
+  border-radius: 10px;
+}
+
+.slider img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 200px;
+}
+
+.slider .carousel-caption h5 {
+  color: red;
+}
+
+.slider .carousel p {
+  color: #212121;
+  line-height: 30px;
+  font-size: 23px;
+  margin-top: 550px;
+  display: block;
+}
+
+.slider .carousel span {
+  color: #ab3550;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+.slider .carousel button:first-of-type {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: absolute;
+
+  bottom: -70px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.slider .carousel button:last-of-type {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: absolute;
+
+  bottom: -70px;
+  transform: translateX(-50%);
+  left: 54%;
+  background-color: #fff;
+}
+
+/* end slider */
+
+@media screen and (max-width: 991px) {
+  .slider .carousel img {
+    margin-bottom: 200px;
+  }
+
+  .slider .carousel p {
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .slider .carousel button.active {
+    left: 56%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  .slider .carousel img {
+    margin-bottom: 210px;
+  }
+
+  .slider .carousel p {
+    line-height: 22px;
+    font-size: 13px;
+  }
+  .slider .carousel span {
+    font-size: 18px;
+  }
+
+  .slider .carousel button.active {
+    left: 60%;
+  }
+}
+
+body {
+  height: 5000px;
+}

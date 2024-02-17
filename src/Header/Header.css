@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #fff;
+}
+nav a {
+  color: #ab3550 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav .num {
+  border: 3px solid #ab3550;
+  color: #fff !important;
+  background-color: #ab3550;
+  box-sizing: border-box;
+  width: 140px;
+  text-align: center;
+}
+
+nav .num:hover {
+  background-color: transparent;
+  color: #ab3550 !important;
+  transition: 0.3s ease-in-out;
+}
+
+nav img {
+  width: 80%;
+  height: 100px;
+}
